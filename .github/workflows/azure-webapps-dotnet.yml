@@ -20,7 +20,7 @@
 name: Build and deploy ASP.Net Core app to an Azure Web App
 on:
   push:
-    branches: [ "dev", "qa", "main" ]
+    branches: [  "qa", "main" ]
   workflow_dispatch:
   # Setting an environment variable with the value of a configuration variable
         

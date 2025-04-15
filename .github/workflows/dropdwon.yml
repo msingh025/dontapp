@@ -7,7 +7,6 @@ on:
       enableFeatureX:
         description: 'Enable feature X'
         required: true
-        default: 'staging'
         type: string
 
 jobs:
