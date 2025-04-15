@@ -1,48 +1,18 @@
-# .github/workflows/generate-dropdown.yml
-name: Update Dropdown Options
+name: Static Choice Example
 on:
   push:
-    paths:
-      - './**'  # Trigger when files in `your-directory` change
-  workflow_dispatch:  # Allow manual triggers
+    branches: [ "dev", "qa", "main" ]
+  workflow_dispatch:
+    inputs:
+      enableFeatureX:
+        description: 'Enable feature X'
+        required: true
+        default: 'staging'
+        type: string
 
 jobs:
-  update-dropdown:
+  deploy:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
-
-      - name: List files and update workflow
-        run: |
-          # List files in your directory (e.g., JSON files)
-          FILES=$(ls -1 *.zip | sed 's/^/          - /; s/\.zip$//')
-
-          # Generate the dynamic workflow YAML
-          cat << EOF > .github/workflows/dynamic-dropdown.yml
-          name: Dynamic File Selector
-          on:
-            workflow_dispatch:
-              inputs:
-                selected_file:
-                  type: choice
-                  description: "Select a file"
-                  options:
-          $FILES
-          jobs:
-            process-file:
-              runs-on: ubuntu-latest
-              steps:
-                - name: Checkout repo
-                  uses: actions/checkout@v4
-                - name: Use selected file
-                  run: echo "Selected file: \${{ github.event.inputs.selected_file }}.zip"
-          EOF
-
-      - name: Commit and push changes
-        run: |
-          git config --global user.name "GitHub Actions"
-          git config --global user.email "actions@github.com"
-          git add .github/workflows/dynamic-dropdown.yml
-          git commit -m "Update dropdown options"
-          git push
+      - name: Use selected enableFeatureX
+        run: echo "Deploying to ${{ github.event.inputs.enableFeatureX }}"
