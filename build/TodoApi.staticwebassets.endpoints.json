@@ -1,0 +1,2576 @@
+{
+  "Version": 1,
+  "ManifestType": "Publish",
+  "Endpoints": [
+    {
+      "Route": "app/scripts/app.js",
+      "AssetFile": "app/scripts/app.js.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.003115264798"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "320"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"5KTTapQVTpTUhTP721Gg6IeevpROTVO4y/P41MfCbSA=\""
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"KUqhl+z/ftfde05I57qKTslBX351T9kC3J8KU9oFZJI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 04 Apr 2025 02:01:32 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-KUqhl+z/ftfde05I57qKTslBX351T9kC3J8KU9oFZJI="
+        }
+      ]
+    },
+    {
+      "Route": "app/scripts/app.js",
+      "AssetFile": "app/scripts/app.js.br",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "br",
+          "Quality": "0.003846153846"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "br"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "259"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"wK2aPJSemB2yDpPjNOBU4CJ4Pvnc+j+wekMd7Aivhow=\""
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"KUqhl+z/ftfde05I57qKTslBX351T9kC3J8KU9oFZJI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 04 Apr 2025 02:01:32 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-KUqhl+z/ftfde05I57qKTslBX351T9kC3J8KU9oFZJI="
+        }
+      ]
+    },
+    {
+      "Route": "app/scripts/app.js",
+      "AssetFile": "app/scripts/app.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "525"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"KUqhl+z/ftfde05I57qKTslBX351T9kC3J8KU9oFZJI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 04 Apr 2025 02:01:32 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-KUqhl+z/ftfde05I57qKTslBX351T9kC3J8KU9oFZJI="
+        }
+      ]
+    },
+    {
+      "Route": "app/scripts/app.js.br",
+      "AssetFile": "app/scripts/app.js.br",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "br"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "259"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"wK2aPJSemB2yDpPjNOBU4CJ4Pvnc+j+wekMd7Aivhow=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 04 Apr 2025 02:01:32 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-wK2aPJSemB2yDpPjNOBU4CJ4Pvnc+j+wekMd7Aivhow="
+        }
+      ]
+    },
+    {
+      "Route": "app/scripts/app.js.gz",
+      "AssetFile": "app/scripts/app.js.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "320"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"5KTTapQVTpTUhTP721Gg6IeevpROTVO4y/P41MfCbSA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 04 Apr 2025 02:01:32 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-5KTTapQVTpTUhTP721Gg6IeevpROTVO4y/P41MfCbSA="
+        }
+      ]
+    },
+    {
+      "Route": "app/scripts/app.rbvt28xcti.js",
+      "AssetFile": "app/scripts/app.js.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.003115264798"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "320"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"5KTTapQVTpTUhTP721Gg6IeevpROTVO4y/P41MfCbSA=\""
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"KUqhl+z/ftfde05I57qKTslBX351T9kC3J8KU9oFZJI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 04 Apr 2025 02:01:32 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "rbvt28xcti"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-KUqhl+z/ftfde05I57qKTslBX351T9kC3J8KU9oFZJI="
+        },
+        {
+          "Name": "label",
+          "Value": "app/scripts/app.js"
+        }
+      ]
+    },
+    {
+      "Route": "app/scripts/app.rbvt28xcti.js",
+      "AssetFile": "app/scripts/app.js.br",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "br",
+          "Quality": "0.003846153846"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "br"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "259"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"wK2aPJSemB2yDpPjNOBU4CJ4Pvnc+j+wekMd7Aivhow=\""
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"KUqhl+z/ftfde05I57qKTslBX351T9kC3J8KU9oFZJI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 04 Apr 2025 02:01:32 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "rbvt28xcti"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-KUqhl+z/ftfde05I57qKTslBX351T9kC3J8KU9oFZJI="
+        },
+        {
+          "Name": "label",
+          "Value": "app/scripts/app.js"
+        }
+      ]
+    },
+    {
+      "Route": "app/scripts/app.rbvt28xcti.js",
+      "AssetFile": "app/scripts/app.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "525"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"KUqhl+z/ftfde05I57qKTslBX351T9kC3J8KU9oFZJI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 04 Apr 2025 02:01:32 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "rbvt28xcti"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-KUqhl+z/ftfde05I57qKTslBX351T9kC3J8KU9oFZJI="
+        },
+        {
+          "Name": "label",
+          "Value": "app/scripts/app.js"
+        }
+      ]
+    },
+    {
+      "Route": "app/scripts/app.rbvt28xcti.js.br",
+      "AssetFile": "app/scripts/app.js.br",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "br"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "259"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"wK2aPJSemB2yDpPjNOBU4CJ4Pvnc+j+wekMd7Aivhow=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 04 Apr 2025 02:01:32 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "rbvt28xcti"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-wK2aPJSemB2yDpPjNOBU4CJ4Pvnc+j+wekMd7Aivhow="
+        },
+        {
+          "Name": "label",
+          "Value": "app/scripts/app.js.br"
+        }
+      ]
+    },
+    {
+      "Route": "app/scripts/app.rbvt28xcti.js.gz",
+      "AssetFile": "app/scripts/app.js.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "320"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"5KTTapQVTpTUhTP721Gg6IeevpROTVO4y/P41MfCbSA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 04 Apr 2025 02:01:32 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "rbvt28xcti"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-5KTTapQVTpTUhTP721Gg6IeevpROTVO4y/P41MfCbSA="
+        },
+        {
+          "Name": "label",
+          "Value": "app/scripts/app.js.gz"
+        }
+      ]
+    },
+    {
+      "Route": "app/scripts/todoListCtrl.js",
+      "AssetFile": "app/scripts/todoListCtrl.js.br",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "br",
+          "Quality": "0.002109704641"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "br"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "473"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"z9zQaotNGRVKHFXsDHPfmQSZtF+xeyC9ox8cMZcAXkY=\""
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"LPW/dtj8qcq768g3qUTwNfNjy3uBjmv7gJSTPcUuJx4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 04 Apr 2025 02:01:32 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-LPW/dtj8qcq768g3qUTwNfNjy3uBjmv7gJSTPcUuJx4="
+        }
+      ]
+    },
+    {
+      "Route": "app/scripts/todoListCtrl.js",
+      "AssetFile": "app/scripts/todoListCtrl.js.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001851851852"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "539"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"9m1jfi9rOdGPVQUYFXTf/g1RDBh6/wf8b4g0TEOOP50=\""
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"LPW/dtj8qcq768g3qUTwNfNjy3uBjmv7gJSTPcUuJx4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 04 Apr 2025 02:01:32 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-LPW/dtj8qcq768g3qUTwNfNjy3uBjmv7gJSTPcUuJx4="
+        }
+      ]
+    },
+    {
+      "Route": "app/scripts/todoListCtrl.js",
+      "AssetFile": "app/scripts/todoListCtrl.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2332"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"LPW/dtj8qcq768g3qUTwNfNjy3uBjmv7gJSTPcUuJx4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 04 Apr 2025 02:01:32 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-LPW/dtj8qcq768g3qUTwNfNjy3uBjmv7gJSTPcUuJx4="
+        }
+      ]
+    },
+    {
+      "Route": "app/scripts/todoListCtrl.js.br",
+      "AssetFile": "app/scripts/todoListCtrl.js.br",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "br"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "473"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"z9zQaotNGRVKHFXsDHPfmQSZtF+xeyC9ox8cMZcAXkY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 04 Apr 2025 02:01:32 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-z9zQaotNGRVKHFXsDHPfmQSZtF+xeyC9ox8cMZcAXkY="
+        }
+      ]
+    },
+    {
+      "Route": "app/scripts/todoListCtrl.js.gz",
+      "AssetFile": "app/scripts/todoListCtrl.js.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "539"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"9m1jfi9rOdGPVQUYFXTf/g1RDBh6/wf8b4g0TEOOP50=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 04 Apr 2025 02:01:32 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-9m1jfi9rOdGPVQUYFXTf/g1RDBh6/wf8b4g0TEOOP50="
+        }
+      ]
+    },
+    {
+      "Route": "app/scripts/todoListCtrl.or7e03oy8o.js",
+      "AssetFile": "app/scripts/todoListCtrl.js.br",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "br",
+          "Quality": "0.002109704641"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "br"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "473"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"z9zQaotNGRVKHFXsDHPfmQSZtF+xeyC9ox8cMZcAXkY=\""
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"LPW/dtj8qcq768g3qUTwNfNjy3uBjmv7gJSTPcUuJx4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 04 Apr 2025 02:01:32 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "or7e03oy8o"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-LPW/dtj8qcq768g3qUTwNfNjy3uBjmv7gJSTPcUuJx4="
+        },
+        {
+          "Name": "label",
+          "Value": "app/scripts/todoListCtrl.js"
+        }
+      ]
+    },
+    {
+      "Route": "app/scripts/todoListCtrl.or7e03oy8o.js",
+      "AssetFile": "app/scripts/todoListCtrl.js.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001851851852"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "539"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"9m1jfi9rOdGPVQUYFXTf/g1RDBh6/wf8b4g0TEOOP50=\""
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"LPW/dtj8qcq768g3qUTwNfNjy3uBjmv7gJSTPcUuJx4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 04 Apr 2025 02:01:32 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "or7e03oy8o"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-LPW/dtj8qcq768g3qUTwNfNjy3uBjmv7gJSTPcUuJx4="
+        },
+        {
+          "Name": "label",
+          "Value": "app/scripts/todoListCtrl.js"
+        }
+      ]
+    },
+    {
+      "Route": "app/scripts/todoListCtrl.or7e03oy8o.js",
+      "AssetFile": "app/scripts/todoListCtrl.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2332"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"LPW/dtj8qcq768g3qUTwNfNjy3uBjmv7gJSTPcUuJx4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 04 Apr 2025 02:01:32 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "or7e03oy8o"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-LPW/dtj8qcq768g3qUTwNfNjy3uBjmv7gJSTPcUuJx4="
+        },
+        {
+          "Name": "label",
+          "Value": "app/scripts/todoListCtrl.js"
+        }
+      ]
+    },
+    {
+      "Route": "app/scripts/todoListCtrl.or7e03oy8o.js.br",
+      "AssetFile": "app/scripts/todoListCtrl.js.br",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "br"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "473"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"z9zQaotNGRVKHFXsDHPfmQSZtF+xeyC9ox8cMZcAXkY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 04 Apr 2025 02:01:32 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "or7e03oy8o"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-z9zQaotNGRVKHFXsDHPfmQSZtF+xeyC9ox8cMZcAXkY="
+        },
+        {
+          "Name": "label",
+          "Value": "app/scripts/todoListCtrl.js.br"
+        }
+      ]
+    },
+    {
+      "Route": "app/scripts/todoListCtrl.or7e03oy8o.js.gz",
+      "AssetFile": "app/scripts/todoListCtrl.js.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "539"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"9m1jfi9rOdGPVQUYFXTf/g1RDBh6/wf8b4g0TEOOP50=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 04 Apr 2025 02:01:32 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "or7e03oy8o"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-9m1jfi9rOdGPVQUYFXTf/g1RDBh6/wf8b4g0TEOOP50="
+        },
+        {
+          "Name": "label",
+          "Value": "app/scripts/todoListCtrl.js.gz"
+        }
+      ]
+    },
+    {
+      "Route": "app/scripts/todoListSvc.5way6djep0.js",
+      "AssetFile": "app/scripts/todoListSvc.js.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.003058103976"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "326"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"rBfqolmBkD4eUmFom470slDnSkJSRAWAKEbaWcOS6As=\""
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"pTWbifDiC3JBtssHT4E1VJ9Jub4vpt4/1LdrZQtxreQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 04 Apr 2025 02:01:32 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "5way6djep0"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-pTWbifDiC3JBtssHT4E1VJ9Jub4vpt4/1LdrZQtxreQ="
+        },
+        {
+          "Name": "label",
+          "Value": "app/scripts/todoListSvc.js"
+        }
+      ]
+    },
+    {
+      "Route": "app/scripts/todoListSvc.5way6djep0.js",
+      "AssetFile": "app/scripts/todoListSvc.js.br",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "br",
+          "Quality": "0.003546099291"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "br"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "281"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"r4DsYjH/A7k5Nw6o56DTt64KX/LPwiz2PQLS8HVpcB0=\""
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"pTWbifDiC3JBtssHT4E1VJ9Jub4vpt4/1LdrZQtxreQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 04 Apr 2025 02:01:32 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "5way6djep0"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-pTWbifDiC3JBtssHT4E1VJ9Jub4vpt4/1LdrZQtxreQ="
+        },
+        {
+          "Name": "label",
+          "Value": "app/scripts/todoListSvc.js"
+        }
+      ]
+    },
+    {
+      "Route": "app/scripts/todoListSvc.5way6djep0.js",
+      "AssetFile": "app/scripts/todoListSvc.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "832"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"pTWbifDiC3JBtssHT4E1VJ9Jub4vpt4/1LdrZQtxreQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 04 Apr 2025 02:01:32 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "5way6djep0"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-pTWbifDiC3JBtssHT4E1VJ9Jub4vpt4/1LdrZQtxreQ="
+        },
+        {
+          "Name": "label",
+          "Value": "app/scripts/todoListSvc.js"
+        }
+      ]
+    },
+    {
+      "Route": "app/scripts/todoListSvc.5way6djep0.js.br",
+      "AssetFile": "app/scripts/todoListSvc.js.br",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "br"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "281"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"r4DsYjH/A7k5Nw6o56DTt64KX/LPwiz2PQLS8HVpcB0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 04 Apr 2025 02:01:32 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "5way6djep0"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-r4DsYjH/A7k5Nw6o56DTt64KX/LPwiz2PQLS8HVpcB0="
+        },
+        {
+          "Name": "label",
+          "Value": "app/scripts/todoListSvc.js.br"
+        }
+      ]
+    },
+    {
+      "Route": "app/scripts/todoListSvc.5way6djep0.js.gz",
+      "AssetFile": "app/scripts/todoListSvc.js.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "326"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"rBfqolmBkD4eUmFom470slDnSkJSRAWAKEbaWcOS6As=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 04 Apr 2025 02:01:32 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "5way6djep0"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-rBfqolmBkD4eUmFom470slDnSkJSRAWAKEbaWcOS6As="
+        },
+        {
+          "Name": "label",
+          "Value": "app/scripts/todoListSvc.js.gz"
+        }
+      ]
+    },
+    {
+      "Route": "app/scripts/todoListSvc.js",
+      "AssetFile": "app/scripts/todoListSvc.js.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.003058103976"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "326"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"rBfqolmBkD4eUmFom470slDnSkJSRAWAKEbaWcOS6As=\""
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"pTWbifDiC3JBtssHT4E1VJ9Jub4vpt4/1LdrZQtxreQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 04 Apr 2025 02:01:32 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-pTWbifDiC3JBtssHT4E1VJ9Jub4vpt4/1LdrZQtxreQ="
+        }
+      ]
+    },
+    {
+      "Route": "app/scripts/todoListSvc.js",
+      "AssetFile": "app/scripts/todoListSvc.js.br",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "br",
+          "Quality": "0.003546099291"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "br"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "281"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"r4DsYjH/A7k5Nw6o56DTt64KX/LPwiz2PQLS8HVpcB0=\""
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"pTWbifDiC3JBtssHT4E1VJ9Jub4vpt4/1LdrZQtxreQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 04 Apr 2025 02:01:32 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-pTWbifDiC3JBtssHT4E1VJ9Jub4vpt4/1LdrZQtxreQ="
+        }
+      ]
+    },
+    {
+      "Route": "app/scripts/todoListSvc.js",
+      "AssetFile": "app/scripts/todoListSvc.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "832"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"pTWbifDiC3JBtssHT4E1VJ9Jub4vpt4/1LdrZQtxreQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 04 Apr 2025 02:01:32 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-pTWbifDiC3JBtssHT4E1VJ9Jub4vpt4/1LdrZQtxreQ="
+        }
+      ]
+    },
+    {
+      "Route": "app/scripts/todoListSvc.js.br",
+      "AssetFile": "app/scripts/todoListSvc.js.br",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "br"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "281"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"r4DsYjH/A7k5Nw6o56DTt64KX/LPwiz2PQLS8HVpcB0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 04 Apr 2025 02:01:32 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-r4DsYjH/A7k5Nw6o56DTt64KX/LPwiz2PQLS8HVpcB0="
+        }
+      ]
+    },
+    {
+      "Route": "app/scripts/todoListSvc.js.gz",
+      "AssetFile": "app/scripts/todoListSvc.js.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "326"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"rBfqolmBkD4eUmFom470slDnSkJSRAWAKEbaWcOS6As=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 04 Apr 2025 02:01:32 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-rBfqolmBkD4eUmFom470slDnSkJSRAWAKEbaWcOS6As="
+        }
+      ]
+    },
+    {
+      "Route": "app/views/TodoList.7zabzrrq39.html",
+      "AssetFile": "app/views/TodoList.html.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001934235977"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "516"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"k0jEZgIwEMr1J0lv8c4keZvwUVMCHqPUFa8c/GR6co0=\""
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"U4tYNA94wlwxe4ZuwCkLYMCaFpMmQlWpIFSqVCOOw90=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 04 Apr 2025 02:01:32 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "7zabzrrq39"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-U4tYNA94wlwxe4ZuwCkLYMCaFpMmQlWpIFSqVCOOw90="
+        },
+        {
+          "Name": "label",
+          "Value": "app/views/TodoList.html"
+        }
+      ]
+    },
+    {
+      "Route": "app/views/TodoList.7zabzrrq39.html",
+      "AssetFile": "app/views/TodoList.html.br",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "br",
+          "Quality": "0.002457002457"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "br"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "406"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"X0L3Ih4/xgcqsEe7gzYYVkbN6I6HdVUskpWmBhIkMWI=\""
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"U4tYNA94wlwxe4ZuwCkLYMCaFpMmQlWpIFSqVCOOw90=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 04 Apr 2025 02:01:32 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "7zabzrrq39"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-U4tYNA94wlwxe4ZuwCkLYMCaFpMmQlWpIFSqVCOOw90="
+        },
+        {
+          "Name": "label",
+          "Value": "app/views/TodoList.html"
+        }
+      ]
+    },
+    {
+      "Route": "app/views/TodoList.7zabzrrq39.html",
+      "AssetFile": "app/views/TodoList.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1492"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"U4tYNA94wlwxe4ZuwCkLYMCaFpMmQlWpIFSqVCOOw90=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 04 Apr 2025 02:01:32 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "7zabzrrq39"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-U4tYNA94wlwxe4ZuwCkLYMCaFpMmQlWpIFSqVCOOw90="
+        },
+        {
+          "Name": "label",
+          "Value": "app/views/TodoList.html"
+        }
+      ]
+    },
+    {
+      "Route": "app/views/TodoList.7zabzrrq39.html.br",
+      "AssetFile": "app/views/TodoList.html.br",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "br"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "406"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"X0L3Ih4/xgcqsEe7gzYYVkbN6I6HdVUskpWmBhIkMWI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 04 Apr 2025 02:01:32 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "7zabzrrq39"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-X0L3Ih4/xgcqsEe7gzYYVkbN6I6HdVUskpWmBhIkMWI="
+        },
+        {
+          "Name": "label",
+          "Value": "app/views/TodoList.html.br"
+        }
+      ]
+    },
+    {
+      "Route": "app/views/TodoList.7zabzrrq39.html.gz",
+      "AssetFile": "app/views/TodoList.html.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "516"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"k0jEZgIwEMr1J0lv8c4keZvwUVMCHqPUFa8c/GR6co0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 04 Apr 2025 02:01:32 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "7zabzrrq39"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-k0jEZgIwEMr1J0lv8c4keZvwUVMCHqPUFa8c/GR6co0="
+        },
+        {
+          "Name": "label",
+          "Value": "app/views/TodoList.html.gz"
+        }
+      ]
+    },
+    {
+      "Route": "app/views/TodoList.html",
+      "AssetFile": "app/views/TodoList.html.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001934235977"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "516"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"k0jEZgIwEMr1J0lv8c4keZvwUVMCHqPUFa8c/GR6co0=\""
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"U4tYNA94wlwxe4ZuwCkLYMCaFpMmQlWpIFSqVCOOw90=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 04 Apr 2025 02:01:32 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-U4tYNA94wlwxe4ZuwCkLYMCaFpMmQlWpIFSqVCOOw90="
+        }
+      ]
+    },
+    {
+      "Route": "app/views/TodoList.html",
+      "AssetFile": "app/views/TodoList.html.br",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "br",
+          "Quality": "0.002457002457"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "br"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "406"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"X0L3Ih4/xgcqsEe7gzYYVkbN6I6HdVUskpWmBhIkMWI=\""
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"U4tYNA94wlwxe4ZuwCkLYMCaFpMmQlWpIFSqVCOOw90=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 04 Apr 2025 02:01:32 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-U4tYNA94wlwxe4ZuwCkLYMCaFpMmQlWpIFSqVCOOw90="
+        }
+      ]
+    },
+    {
+      "Route": "app/views/TodoList.html",
+      "AssetFile": "app/views/TodoList.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1492"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"U4tYNA94wlwxe4ZuwCkLYMCaFpMmQlWpIFSqVCOOw90=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 04 Apr 2025 02:01:32 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-U4tYNA94wlwxe4ZuwCkLYMCaFpMmQlWpIFSqVCOOw90="
+        }
+      ]
+    },
+    {
+      "Route": "app/views/TodoList.html.br",
+      "AssetFile": "app/views/TodoList.html.br",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "br"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "406"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"X0L3Ih4/xgcqsEe7gzYYVkbN6I6HdVUskpWmBhIkMWI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 04 Apr 2025 02:01:32 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-X0L3Ih4/xgcqsEe7gzYYVkbN6I6HdVUskpWmBhIkMWI="
+        }
+      ]
+    },
+    {
+      "Route": "app/views/TodoList.html.gz",
+      "AssetFile": "app/views/TodoList.html.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "516"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"k0jEZgIwEMr1J0lv8c4keZvwUVMCHqPUFa8c/GR6co0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 04 Apr 2025 02:01:32 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-k0jEZgIwEMr1J0lv8c4keZvwUVMCHqPUFa8c/GR6co0="
+        }
+      ]
+    },
+    {
+      "Route": "index.html",
+      "AssetFile": "index.html.br",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "br",
+          "Quality": "0.001945525292"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "br"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "513"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"/GQOIbO9C0/Lu8G5cnUcbsYc7sUIwlq0S3C1YDUYNZc=\""
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"EqccW3EQONucUUAh+eTHURvZ30NXiJVqkPjMta6iOi4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 04 Apr 2025 02:01:32 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-EqccW3EQONucUUAh+eTHURvZ30NXiJVqkPjMta6iOi4="
+        }
+      ]
+    },
+    {
+      "Route": "index.html",
+      "AssetFile": "index.html.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001364256480"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "732"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ogS/i4nVZoop7fZ/sqnUW4VaryzT5YpqQMZyB8Hf4R8=\""
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"EqccW3EQONucUUAh+eTHURvZ30NXiJVqkPjMta6iOi4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 04 Apr 2025 02:01:32 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-EqccW3EQONucUUAh+eTHURvZ30NXiJVqkPjMta6iOi4="
+        }
+      ]
+    },
+    {
+      "Route": "index.html",
+      "AssetFile": "index.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2247"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"EqccW3EQONucUUAh+eTHURvZ30NXiJVqkPjMta6iOi4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 04 Apr 2025 02:01:32 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-EqccW3EQONucUUAh+eTHURvZ30NXiJVqkPjMta6iOi4="
+        }
+      ]
+    },
+    {
+      "Route": "index.html.br",
+      "AssetFile": "index.html.br",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "br"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "513"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"/GQOIbO9C0/Lu8G5cnUcbsYc7sUIwlq0S3C1YDUYNZc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 04 Apr 2025 02:01:32 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-/GQOIbO9C0/Lu8G5cnUcbsYc7sUIwlq0S3C1YDUYNZc="
+        }
+      ]
+    },
+    {
+      "Route": "index.html.gz",
+      "AssetFile": "index.html.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "732"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ogS/i4nVZoop7fZ/sqnUW4VaryzT5YpqQMZyB8Hf4R8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 04 Apr 2025 02:01:32 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ogS/i4nVZoop7fZ/sqnUW4VaryzT5YpqQMZyB8Hf4R8="
+        }
+      ]
+    },
+    {
+      "Route": "index.myln6xqo8h.html",
+      "AssetFile": "index.html.br",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "br",
+          "Quality": "0.001945525292"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "br"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "513"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"/GQOIbO9C0/Lu8G5cnUcbsYc7sUIwlq0S3C1YDUYNZc=\""
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"EqccW3EQONucUUAh+eTHURvZ30NXiJVqkPjMta6iOi4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 04 Apr 2025 02:01:32 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "myln6xqo8h"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-EqccW3EQONucUUAh+eTHURvZ30NXiJVqkPjMta6iOi4="
+        },
+        {
+          "Name": "label",
+          "Value": "index.html"
+        }
+      ]
+    },
+    {
+      "Route": "index.myln6xqo8h.html",
+      "AssetFile": "index.html.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001364256480"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "732"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ogS/i4nVZoop7fZ/sqnUW4VaryzT5YpqQMZyB8Hf4R8=\""
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"EqccW3EQONucUUAh+eTHURvZ30NXiJVqkPjMta6iOi4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 04 Apr 2025 02:01:32 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "myln6xqo8h"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-EqccW3EQONucUUAh+eTHURvZ30NXiJVqkPjMta6iOi4="
+        },
+        {
+          "Name": "label",
+          "Value": "index.html"
+        }
+      ]
+    },
+    {
+      "Route": "index.myln6xqo8h.html",
+      "AssetFile": "index.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2247"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"EqccW3EQONucUUAh+eTHURvZ30NXiJVqkPjMta6iOi4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 04 Apr 2025 02:01:32 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "myln6xqo8h"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-EqccW3EQONucUUAh+eTHURvZ30NXiJVqkPjMta6iOi4="
+        },
+        {
+          "Name": "label",
+          "Value": "index.html"
+        }
+      ]
+    },
+    {
+      "Route": "index.myln6xqo8h.html.br",
+      "AssetFile": "index.html.br",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "br"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "513"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"/GQOIbO9C0/Lu8G5cnUcbsYc7sUIwlq0S3C1YDUYNZc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 04 Apr 2025 02:01:32 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "myln6xqo8h"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-/GQOIbO9C0/Lu8G5cnUcbsYc7sUIwlq0S3C1YDUYNZc="
+        },
+        {
+          "Name": "label",
+          "Value": "index.html.br"
+        }
+      ]
+    },
+    {
+      "Route": "index.myln6xqo8h.html.gz",
+      "AssetFile": "index.html.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "732"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ogS/i4nVZoop7fZ/sqnUW4VaryzT5YpqQMZyB8Hf4R8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 04 Apr 2025 02:01:32 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "myln6xqo8h"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ogS/i4nVZoop7fZ/sqnUW4VaryzT5YpqQMZyB8Hf4R8="
+        },
+        {
+          "Name": "label",
+          "Value": "index.html.gz"
+        }
+      ]
+    }
+  ]
+}

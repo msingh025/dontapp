@@ -32,21 +32,21 @@ env:
   AZURE_WEBAPP_NAME: your-app-name    # set this to your application's name
   AZURE_WEBAPP_PACKAGE_PATH: '.'      # set this to the path to your web app project, defaults to the repository root
   DOTNET_VERSION: '9.0.0'      
-
+  DEPLOYMENT_ENVIRONMENT: ${{ github.ref == 'refs/heads/dev' && 'dev' ||
+    github.ref == 'refs/heads/main' && 'production' ||
+    github.ref == 'refs/heads/qa' && 'qa' }}
 jobs:
   build:
     runs-on: ubuntu-latest
     environment:
-      name: ${{ contains(github.ref, 'dev') && 'dev' ||
-        contains(github.ref, 'main') && 'production' ||
-        contains(github.ref, 'qa') && 'qa' }}
+      name: ${{ env.DEPLOYMENT_ENVIRONMENT }}
     steps:
     - name: Detect Environment
       run: echo "Deploying to ${{ github.ref }} → ${{ env.ENVIRONMENT }}"
     - name: Print Environment-Specific Variables
       run: |
           # Access variables from the environment using the `vars` context
-          echo "DEMO variable: ${{ vars.DEMO }}"
+          echo "DEMO variable: ${{ vars.DEMO }} and  deployment var: ${{ env.DEPLOYMENT_ENVIRONMENT }}"
           # Secrets are masked but can be used in scripts (not printed)
           echo "Secret status: [HIDDEN]"
     - name: Checkout Repository
