@@ -39,7 +39,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     environment:
-      name: ${{ env.DEPLOYMENT_ENVIRONMENT }}
+      name: ${{ github.ref == 'refs/heads/dev' && 'dev' ||github.ref == 'refs/heads/main' && 'production' ||github.ref == 'refs/heads/qa' && 'qa' }}
     steps:
     - name: Detect Environment
       run: echo "Deploying to ${{ github.ref }} → ${{ env.ENVIRONMENT }}"
@@ -63,6 +63,22 @@ jobs:
       run: |
         echo "Files in the repository:"
         ls -R
+    - name: Lgin to Azure
+      uses: azure/login@v2
+      with: 
+        creds: ${{ secrets.AZURE_CREDENTIALS }}
+    - name: Key Vault
+      id: keyvault
+      uses: azure/get-keyvault-secrets@v1
+      with:
+        azure-subscription: ${{ secrets.AZURE_SUBSCRIPTION }}
+        keyvault: 'pkchaivault'
+        secrets: 'demoKeyVaultSecret'
+    - name: List of Key Vault Secrets
+      run: |
+        echo "Key Vault Secrets:"
+        echo "${{ steps.keyvault.outputs.pkchaivault }}"
+      
     - name: Deploy to Azure Web App
       id: deploy-to-webapp
       uses: azure/webapps-deploy@v2
