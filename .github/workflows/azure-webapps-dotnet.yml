@@ -70,7 +70,7 @@ jobs:
           git config --global user.email "${{env.USER_EMAIL}}"
           
           git clone --depth 1 --branch $TARGET_REPO_BRANCH \
-          "https://${{ secrets.TARGET_REPO_PAT }}${{TARGET_REPO}}" target-repo
+          "https://${{ secrets.TARGET_REPO_PAT }}@github.com/msingh025/angular-http-guide.git" target-repo
     - name: Make Changes in Target Repo
       working-directory: ./target-repo
       run: |
