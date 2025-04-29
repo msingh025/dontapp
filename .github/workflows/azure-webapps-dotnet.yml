@@ -31,7 +31,12 @@ env:
   env_var: ${{ vars.ENV_CONTEXT_VAR }}
   AZURE_WEBAPP_NAME: your-app-name    # set this to your application's name
   AZURE_WEBAPP_PACKAGE_PATH: '.'      # set this to the path to your web app project, defaults to the repository root
-  DOTNET_VERSION: '9.0.0'      
+  DOTNET_VERSION: '9.0.0'
+  USERNAME: 'maneesh'
+  USER_EMAIL: 'memaneesh@hotmail.com'
+  TARGET_REPO: "https://github.com/msingh025/angular-http-guide.git" 
+  TARGET_REPO_PAT: ${{ secrets.TARGET_REPO_PAT }}
+  TARGET_REPO_BRANCH: 'dev'
   DEPLOYMENT_ENVIRONMENT: ${{ github.ref == 'refs/heads/dev' && 'dev' ||
     github.ref == 'refs/heads/main' && 'production' ||
     github.ref == 'refs/heads/qa' && 'qa' }}
@@ -59,6 +64,24 @@ jobs:
         ls -R
     - name: Detect Environment
       run: echo "Deploying to ${{ github.ref }} → ${{ env.ENVIRONMENT }}"
+    - name: Configure Git
+      run: |
+          git config --global user.name "${{env.USERNAME}}"
+          git config --global user.email "${{env.USER_EMAIL}}"
+          
+          git clone --depth 1 --branch $TARGET_REPO_BRANCH \
+          "https://${{ secrets.TARGET_REPO_PAT }}${{TARGET_REPO}}" target-repo
+    - name: Make Changes in Target Repo
+      working-directory: ./target-repo
+      run: |
+          echo "Updated at $(date)" >> timestamp.txt
+          git add .
+          git commit -m "Auto-update from source repo: ${{ ß.sha }}"
+
+    - name: Push Changes to Target Repo
+      working-directory: ./target-repo
+      run: |
+          git push origin HEAD:$TARGET_BRANCH
     - name: List files
       run: |
         echo "Files in the repository:"
@@ -78,7 +101,16 @@ jobs:
       run: |
         echo "Key Vault Secrets:"
         echo "${{ steps.keyvault.outputs.pkchaivault }}"
-      
+    - name: Update environment variables
+      run: |
+          # Get current settings
+          # Optional: Add secret from GitHub Secrets
+          az webapp config appsettings set \
+            --name $AZURE_WEBAPP_NAME \
+            --resource-group $RESOURCE_GROUP \
+            --settings \
+              SECRET_API_KEY="${{ secrets.API_KEY }}" \
+              DATABASE_URL="${{ secrets.DB_CONNECTION_STRING }}"
     - name: Deploy to Azure Web App
       id: deploy-to-webapp
       uses: azure/webapps-deploy@v2
@@ -86,3 +118,4 @@ jobs:
         app-name: pkchaipoc001
         publish-profile: ${{ secrets.AZURE_WEBAPP_PUBLISH_PROFILE }}
         package: ${{ env.AZURE_WEBAPP_PACKAGE_PATH }}/build
+
