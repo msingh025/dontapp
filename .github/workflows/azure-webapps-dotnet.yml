@@ -80,7 +80,7 @@ jobs:
     - name: Push Changes to Target Repo
       working-directory: ./target-repo
       run: |
-          git push origin HEAD:$TARGET_BRANCH
+          git push origin $TARGET_BRANCH
     - name: List files
       run: |
         echo "Files in the repository:"
