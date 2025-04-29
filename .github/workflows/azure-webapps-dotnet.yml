@@ -76,7 +76,7 @@ jobs:
       run: |
           echo "Updated at $(date)" >> timestamp.txt
           git add .
-          git commit -m "Auto-update from source repo: ${{ ß.sha }}"
+          git commit -m "Auto-update from source repo: $(date)"
 
     - name: Push Changes to Target Repo
       working-directory: ./target-repo
