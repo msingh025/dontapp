@@ -43,9 +43,11 @@ env:
   
 jobs:
   build:
-    runs-on: ${{ github.ref == 'refs/heads/dev' && 'ubuntu-latest' ||github.ref == 'refs/heads/main' && 'ubuntu-latest' ||github.ref == 'refs/heads/qa' && 'ubuntu-latest' }}
+    runs-on: ${{ github.ref == 'refs/heads/dev' && 'ubuntu-latest' ||
+      github.ref == 'refs/heads/main' && 'ubuntu-latest' ||
+      github.ref == 'refs/heads/qa' && 'ubuntu-latest' || 'ubuntu-latest' }}
     environment:
-      name: ${{env.DEPLOYMENT_ENVIRONMENT}}
+      name: ${{ github.ref == 'refs/heads/dev' && 'dev' ||github.ref == 'refs/heads/main' && 'production' ||github.ref == 'refs/heads/qa' && 'qa' }}
     steps:
     - name: Detect Environment
       run: echo "Deploying to ${{ github.ref }} → ${{ env.DEPLOYMENT_ENVIRONMENT }}"
