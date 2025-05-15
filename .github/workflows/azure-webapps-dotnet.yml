@@ -46,7 +46,9 @@ env:
   
 jobs:
   build:
-    runs-on: ${{RUNNER_ENVIRONMENT}}
+    runs-on: ${{ github.ref == 'refs/heads/dev' && 'ubuntu-latest' ||
+      github.ref == 'refs/heads/main' && 'ubuntu-latest' ||
+      github.ref == 'refs/heads/qa' && 'ubuntu-latest' || 'ubuntu-latest' }}
     environment:
       name: ${{ github.ref == 'refs/heads/dev' && 'dev' ||github.ref == 'refs/heads/main' && 'production' ||github.ref == 'refs/heads/qa' && 'qa' }}
     steps:
