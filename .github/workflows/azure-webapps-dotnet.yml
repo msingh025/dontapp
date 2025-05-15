@@ -40,9 +40,9 @@ env:
   DEPLOYMENT_ENVIRONMENT: ${{ github.ref == 'refs/heads/dev' && 'dev' ||
     github.ref == 'refs/heads/main' && 'production' ||
     github.ref == 'refs/heads/qa' && 'qa' }}
-  RUNNER_ENVIRONMENT: ${{ github.ref == 'refs/heads/dev' && 'dev' ||
-    github.ref == 'refs/heads/main' && 'production' ||
-    github.ref == 'refs/heads/qa' && 'qa' }}
+  RUNNER_ENVIRONMENT: ${{ github.ref == 'refs/heads/dev' && 'ubuntu-latest' ||
+      github.ref == 'refs/heads/main' && 'ubuntu-latest' ||
+      github.ref == 'refs/heads/qa' && 'ubuntu-latest' || 'ubuntu-latest' }}
   
 jobs:
   build:
@@ -53,7 +53,7 @@ jobs:
       name: ${{ github.ref == 'refs/heads/dev' && 'dev' ||github.ref == 'refs/heads/main' && 'production' ||github.ref == 'refs/heads/qa' && 'qa' }}
     steps:
     - name: Detect Environment
-      run: echo ${{ env.RUNNER_ENVIRONMENT }}  "Deploying to ${{ github.ref }} → ${{ env.DEPLOYMENT_ENVIRONMENT }}" 
+      run: echo "Runner information" ${{ env.RUNNER_ENVIRONMENT }}  "Deploying to ${{ github.ref }} → ${{ env.DEPLOYMENT_ENVIRONMENT }}" 
     - name: Print Environment-Specific Variables
       run: |
           # Access variables from the environment using the `vars` context
