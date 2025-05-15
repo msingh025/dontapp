@@ -40,9 +40,10 @@ env:
   DEPLOYMENT_ENVIRONMENT: ${{ github.ref == 'refs/heads/dev' && 'dev' ||
     github.ref == 'refs/heads/main' && 'production' ||
     github.ref == 'refs/heads/qa' && 'qa' }}
+  SELF_HOSTED_RUNNER: ${{ github.ref == 'refs/heads/dev' && 'ubuntu-latest' ||github.ref == 'refs/heads/main' && 'ubuntu-latest' ||github.ref == 'refs/heads/qa' && 'ubuntu-latest' }}
 jobs:
   build:
-    runs-on: ${{ github.ref == 'refs/heads/dev' && 'ubuntu-latest' ||github.ref == 'refs/heads/main' && 'ubuntu-latest' ||github.ref == 'refs/heads/qa' && 'ubuntu-latest' }}
+    runs-on: ${ { env.SELF_HOSTED_RUNNER } }
     environment:
       name: ${{ github.ref == 'refs/heads/dev' && 'dev' ||github.ref == 'refs/heads/main' && 'production' ||github.ref == 'refs/heads/qa' && 'qa' }}
     steps:
