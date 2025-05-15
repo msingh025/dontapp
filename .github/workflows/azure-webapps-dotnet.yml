@@ -46,7 +46,7 @@ env:
   
 jobs:
   build:
-    runs-on: ${{ env.RUNNER_ENVIRONMENT }}
+    runs-on: ${{RUNNER_ENVIRONMENT}}
     environment:
       name: ${{ github.ref == 'refs/heads/dev' && 'dev' ||github.ref == 'refs/heads/main' && 'production' ||github.ref == 'refs/heads/qa' && 'qa' }}
     steps:
