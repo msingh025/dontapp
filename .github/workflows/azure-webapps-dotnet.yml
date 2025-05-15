@@ -101,16 +101,16 @@ jobs:
       run: |
         echo "Key Vault Secrets:"
         echo "${{ steps.keyvault.outputs.pkchaivault }}"
-    - name: Update environment variables
-      run: |
-          # Get current settings
-          # Optional: Add secret from GitHub Secrets
-          az webapp config appsettings set \
-            --name $AZURE_WEBAPP_NAME \
-            --resource-group $RESOURCE_GROUP \
-            --settings \
-              SECRET_API_KEY="${{ secrets.API_KEY }}" \
-              DATABASE_URL="${{ secrets.DB_CONNECTION_STRING }}"
+    # - name: Update environment variables
+    #   run: |
+    #       # Get current settings
+    #       # Optional: Add secret from GitHub Secrets
+    #       az webapp config appsettings set \
+    #         --name $AZURE_WEBAPP_NAME \
+    #         --resource-group $RESOURCE_GROUP \
+    #         --settings \
+    #           SECRET_API_KEY="${{ secrets.API_KEY }}" \
+    #           DATABASE_URL="${{ secrets.DB_CONNECTION_STRING }}"
     - name: Deploy to Azure Web App
       id: deploy-to-webapp
       uses: azure/webapps-deploy@v2
