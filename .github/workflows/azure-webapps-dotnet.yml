@@ -106,6 +106,13 @@ jobs:
       run: |
         echo "Key Vault Secrets:"
         echo "${{ steps.keyvault.outputs.pkchaivault }}"
+    - name: 'Upload Artifact'
+      uses: actions/upload-artifact@v4
+      with:
+        name: pakage version
+        path: build.zip
+        retention-days: 5
+
     # - name: Update environment variables
     #   run: |
     #       # Get current settings
