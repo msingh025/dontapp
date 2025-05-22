@@ -137,4 +137,5 @@ jobs:
          --resource-group $RESOURCE_GROUP \
          --name $AZURE_WEBAPP_NAME \
          --resource-type "Microsoft.Web/sites" \
-         --set properties.siteConfig.healthCheckPath="/api/Todo"
+         --set properties.siteConfig.healthCheckPath="/api/Todo" \
+         --latest-include-preview
