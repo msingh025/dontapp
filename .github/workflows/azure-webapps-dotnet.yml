@@ -111,7 +111,7 @@ jobs:
       uses: actions/upload-artifact@v4
       with:
         name: pakage_version_${{ env.MY_DATE }}
-        path: build.zip
+        path: build.zip 
         retention-days: 5
 
     # - name: Update environment variables
