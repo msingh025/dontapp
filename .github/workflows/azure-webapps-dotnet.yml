@@ -133,8 +133,4 @@ jobs:
         package: ${{ env.AZURE_WEBAPP_PACKAGE_PATH }}/build
     - name: update heathcheck
       run: |
-        az webapp update \
-          --name $AZURE_WEBAPP_NAME \
-          --resource-group $RESOURCE_GROUP \
-          --set healthCheckPath="/healthcheck"
-
+        az resource update --resource-group "$RESOURCE_GROUP" --name "$AZURE_WEBAPP_NAME" --resource-type "Microsoft.Web/sites" --set properties.siteConfig.healthCheckPath="/api/Todo"
