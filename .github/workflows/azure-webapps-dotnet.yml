@@ -138,4 +138,4 @@ jobs:
          --name $AZURE_WEBAPP_NAME \
          --resource-type "Microsoft.Web/sites" \
          --set properties.siteConfig.healthCheckPath="/api/Todo" \
-         --latest-include-preview
+         --api-version "2018-02-01"
