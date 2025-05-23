@@ -140,3 +140,11 @@ jobs:
         #  --resource-type "Microsoft.Web/sites" \
         #  --set properties.siteConfig.healthCheckPath="/api/Todo" \
         #  --api-version "2018-02-01"
+    - name: Disable FTP Deployment properties.basicPublishingCredentialsPolicies.ftp.allow
+      run: |
+        az resource update \
+          --resource-group $RESOURCE_GROUP \
+          --name $AZURE_WEBAPP_NAME \
+          --resource-type "Microsoft.Web/sites" \
+          --set properties.basicPublishingCredentialsPolicies.ftp.allow=false \
+          --api-version "2018-02-01"
