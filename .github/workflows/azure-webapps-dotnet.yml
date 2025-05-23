@@ -142,9 +142,11 @@ jobs:
         #  --api-version "2018-02-01"
     - name: Disable FTP Deployment properties.basicPublishingCredentialsPolicies.ftp.allow
       run: |
+        
         az resource update \
-          --resource-group "${{vars.RESOURCE_GROUP}}" \
-          --name "${{vars.AZURE_WEBAPP_NAME}}" \
-          --resource-type "Microsoft.Web/sites" \
-          --set properties.basicPublishingCredentialsPolicies.ftp.allow=false \
-          --api-version "2018-02-01"
+        --resource-group "${{vars.RESOURCE_GROUP}}" \
+         --name ftp \
+        --namespace Microsoft.Web \
+        --resource-type basicPublishingCredentialsPolicies \
+        --parent sites/"${{vars.AZURE_WEBAPP_NAME}}"  \
+        --set properties.allow=false
