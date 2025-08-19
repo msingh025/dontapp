@@ -47,6 +47,7 @@ jobs:
         run: |
           echo "Files in the repository:"
           ls -R
+          echo "Git hub ref name ${{github.ref_name}}  and ${{ github.ref}}"
       - name: Deploy to Azure Web App
         id: deploy-to-webapp
         uses: azure/webapps-deploy@v2
